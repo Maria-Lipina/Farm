@@ -1,0 +1,4 @@
+id species;species name;available commands;max load
+4;верблюд;пошел, стоять, лежать;30
+5;лошадь;но, тпру, стоять;20
+6;осел;пошел, стоять;40

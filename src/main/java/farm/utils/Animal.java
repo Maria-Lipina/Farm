@@ -1,4 +1,8 @@
 package farm.utils;
 
-public interface Animal {
+import java.util.ArrayList;
+
+interface Animal {
+boolean learnCommand(String command);
+
 }

@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="diagram part version 1.0">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farm/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farm/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farm/Farm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farm/FileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/animals.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="классы животных пока пустые">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Farm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/PackAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/PackAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/PetAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/PetAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/species.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IT/Geekbrains/Промежуточная аттестация 02.23/Linux and (Java) Toy drawing/Linux and Toy shop game&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.4190207&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/IT/Geekbrains/Промежуточная аттестация 02.23/Linux and (Java) Toy drawing/Linux and Toy shop game",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.4190207",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -110,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681220292879</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="структура проекта и обработка входных файлов">
+      <created>1681293529103</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681293529103</updated>
+    </task>
+    <task id="LOCAL-00007" summary="классы животных пока пустые">
+      <created>1681293567476</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681293567476</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,7 +141,9 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="linux part done" />
     <MESSAGE value="diagram part version 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="diagram part version 1.0" />
+    <MESSAGE value="структура проекта и обработка входных файлов" />
+    <MESSAGE value="классы животных пока пустые" />
+    <option name="LAST_COMMIT_MESSAGE" value="классы животных пока пустые" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
