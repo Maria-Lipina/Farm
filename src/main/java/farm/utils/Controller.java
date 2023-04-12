@@ -41,7 +41,6 @@ public class Controller {
             farm.addAnimal(record);
         }
 
-
     }
 
     public void run() { //Тут команды, которые дает пользователь и их выполнение
@@ -53,5 +52,15 @@ public class Controller {
         return false;
     }
 
+    String learn (String animalName, String command) {
+        Animal student = farm.canLearnCommand(animalName, command);
+        if (student != null) {
+            student.learnCommand(command);
+            return String.format("Success! Теперь %s знает такие команды: %s", animalName, student.getCommands());
+        }
+        else {
+            return String.format("%s не может выполнять команду %s", animalName, command);
+        }
+    }
 
 }

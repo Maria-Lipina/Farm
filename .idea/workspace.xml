@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="классы животных пока пустые">
+    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="загрузка животных в реестр из файла">
       <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Farm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/PackAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/PackAnimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/PetAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/PetAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/species.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/animals_prog.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/animals_prog.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681293567476</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="загрузка животных в реестр из файла">
+      <created>1681310164620</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681310164620</updated>
+    </task>
+    <task id="LOCAL-00009" summary="загрузка животных в реестр из файла">
+      <created>1681310211186</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681310211186</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,7 +156,8 @@
     <MESSAGE value="diagram part version 1.0" />
     <MESSAGE value="структура проекта и обработка входных файлов" />
     <MESSAGE value="классы животных пока пустые" />
-    <option name="LAST_COMMIT_MESSAGE" value="классы животных пока пустые" />
+    <MESSAGE value="загрузка животных в реестр из файла" />
+    <option name="LAST_COMMIT_MESSAGE" value="загрузка животных в реестр из файла" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

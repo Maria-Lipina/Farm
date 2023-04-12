@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 abstract class PetAnimal implements Animal {
 
-    String name;
-    String birthDate;
-    String learnedCommands;
-    String toys;
+    protected String name;
+    protected String birthDate;
+    protected String learnedCommands;
+    protected String toys;
 
     public PetAnimal (String [] properties) {
         name = properties[1];
@@ -17,7 +17,19 @@ abstract class PetAnimal implements Animal {
     }
 
     @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public String getCommands() {
+        if (learnedCommands != null) return learnedCommands;
+        else return "не знает команд";
+    }
+
+    @Override
     public boolean learnCommand(String command) {
+        learnedCommands = String.format("%s, %s", learnedCommands, command);
         return false;
     }
 
@@ -27,7 +39,7 @@ abstract class PetAnimal implements Animal {
 
     @Override
     public String toString() {
-        return "PetAnimal{" +
+        return this.getClass().getSimpleName() + "{" +
                 "name='" + name + '\'' +
                 ", birthDate='" + birthDate + '\'' +
                 ", learnedCommands='" + learnedCommands + '\'' +
@@ -45,6 +57,7 @@ class Dog extends PetAnimal {
     public Dog(String [] properties) {
         super (properties);
     }
+
 }
 
 class Cat extends PetAnimal {

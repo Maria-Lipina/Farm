@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 abstract class PackAnimal implements Animal {
 
-    String name;
-    String birthDate;
-    String learnedCommands;
-    int maxLoad;
+    protected String name;
+    protected String birthDate;
+    protected String learnedCommands;
+    protected int maxLoad;
 
     public PackAnimal (String [] properties, int maxLoad) {
         name = properties[1];
@@ -17,13 +17,25 @@ abstract class PackAnimal implements Animal {
     }
 
     @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public String getCommands() {
+        if (learnedCommands != null) return learnedCommands;
+        else return "не знает команд";
+    }
+
+    @Override
     public boolean learnCommand(String command) {
+        learnedCommands = String.format("%s, %s", learnedCommands, command);
         return false;
     }
 
     @Override
     public String toString() {
-        return "PackAnimal{" +
+        return this.getClass().getSimpleName() + "{" +
                 "name='" + name + '\'' +
                 ", birthDate='" + birthDate + '\'' +
                 ", learnedCommands='" + learnedCommands + '\'' +
