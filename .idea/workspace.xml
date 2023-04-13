@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="выполнение команд. Осталось навигацию по меню">
-      <change afterPath="$PROJECT_DIR$/src/main/java/farm/utils/MenuConst.java" afterDir="false" />
+    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="Добавила обучение, методы поиска, исправила switch">
       <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/farm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Farm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/animals.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/packs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pets.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/MenuConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/MenuConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/animals_prog.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/animals_prog.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +144,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681316358793</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="выделила папку для бд, разделила файлы между бд и программой">
+      <created>1681374804258</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681374804258</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Добавила меню с навигацией, убрала learn">
+      <created>1681374982716</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681374982716</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Добавила обучение, методы поиска, исправила switch">
+      <created>1681375100343</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681375100343</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +187,10 @@
     <MESSAGE value="классы животных пока пустые" />
     <MESSAGE value="загрузка животных в реестр из файла" />
     <MESSAGE value="выполнение команд. Осталось навигацию по меню" />
-    <option name="LAST_COMMIT_MESSAGE" value="выполнение команд. Осталось навигацию по меню" />
+    <MESSAGE value="выделила папку для бд, разделила файлы между бд и программой" />
+    <MESSAGE value="Добавила меню с навигацией, убрала learn" />
+    <MESSAGE value="Добавила обучение, методы поиска, исправила switch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавила обучение, методы поиска, исправила switch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

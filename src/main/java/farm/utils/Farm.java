@@ -65,31 +65,37 @@ class Farm {
         return result;
     }
 
-    Animal canLearnCommand(String animalName, String command) {
-        for (Animal anim: animals) {
-            if (anim.getName().equals(animalName)) {
-                if(anim.getCommands().contains(command)) return null;
-                if(anim instanceof PetAnimal) {
-                    if (searchOption(petsOptions, 1, anim.getClass().getSimpleName())
-                            .contains(command)) return anim;
-                }
-                if(anim instanceof PackAnimal) {
-                    if (searchOption(packsOptions, 1, anim.getClass().getSimpleName())
-                            .contains(command)) return anim;
-                }
-            }
+    boolean canLearnCommand(Animal anim, String command) {
+        if(anim.getCommands().contains(command)) return false;
+        if(anim instanceof PetAnimal) {
+            if (!searchOption(petsOptions, 1, anim.getClass().getSimpleName())
+                    .contains(command)) return false;
         }
-        return null;
+        if(anim instanceof PackAnimal) {
+            if (!searchOption(packsOptions, 1, anim.getClass().getSimpleName())
+                    .contains(command)) return false;
+        }
+        return true;
     }
 
     String teach (String animalName, String command) {
-        Animal student = canLearnCommand(animalName, command);
-        if (student != null) {
-            student.learnCommand(command);
-            return String.format("Success! “еперь %s знает такие команды: %s", animalName, student.getCommands());
+        LinkedList<Animal> students = this.searchByName(animalName);
+        StringBuilder result = new StringBuilder();
+        if (students == null) {
+            return String.format("%s не живет в питомнике");
+        } else {
+            for (Animal student: students) {
+                if (this.canLearnCommand(student, command)) {
+                    student.learnCommand(command);
+                    result.append(
+                        String.format("“еперь %s знает такие команды: %s%n", animalName, student.getCommands()));
+                }
+                else {
+                    result.append(
+                            String.format("%s не может выучить команду %s%n", animalName, command));
+                }
+            }
         }
-        else {
-            return String.format("%s не может выполн€ть команду %s", animalName, command);
-        }
+       return result.toString();
     }
 }
