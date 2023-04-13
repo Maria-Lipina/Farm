@@ -25,13 +25,13 @@ class Farm {
                 animals.add(new Hamster(animal));
             case "Camel" ->
                 animals.add(new Camel(animal,
-                    Integer.parseInt(searchOption(packsOptions, 2, "верблюд"))));
+                    Integer.parseInt(searchOption(packsOptions, 2, "Camel"))));
             case "Horse" ->
                 animals.add(new Horse(animal,
-                    Integer.parseInt(searchOption(packsOptions, 2, "лошадь"))));
+                    Integer.parseInt(searchOption(packsOptions, 2, "Horse"))));
             case "Donkey" ->
                 animals.add(new Donkey(animal,
-                    Integer.parseInt(searchOption(packsOptions, 2, "осел"))));
+                    Integer.parseInt(searchOption(packsOptions, 2, "Donkey"))));
         }
 
         if (animals.size() > 0) System.out.println("Добавленное животное: " + animals.get(animals.size() -1));
@@ -39,7 +39,7 @@ class Farm {
 
     private String searchOption(ArrayList<String[]> options, int findIndex, String animal) {
         for (String[] option : options) {
-            if (option[1].equals(animal)) return option[findIndex];
+            if (option[0].equals(animal)) return option[findIndex];
         }
         return "-1";
     }

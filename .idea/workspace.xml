@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="Добавила обучение, методы поиска, исправила switch">
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="добавила проверку ввода">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/farm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Farm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/MenuConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/MenuConst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/animals_prog.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/animals_prog.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681375100343</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="добавила проверку ввода">
+      <created>1681396002130</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681396002130</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,7 +195,24 @@
     <MESSAGE value="выделила папку для бд, разделила файлы между бд и программой" />
     <MESSAGE value="Добавила меню с навигацией, убрала learn" />
     <MESSAGE value="Добавила обучение, методы поиска, исправила switch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавила обучение, методы поиска, исправила switch" />
+    <MESSAGE value="добавила проверку ввода" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавила проверку ввода" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/farm/utils/Controller.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/farm/utils/Controller.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -20,6 +20,6 @@ class MenuConst {
             8) Выход из приложения: "exit"
             """;
     static final String bye = "До свидания!";
-    static final String fail = "Не понимаю. Проверьте правильность команды";
+    static final String fail = "Не понимаю. Проверьте правильность команды и входных данных";
     static final String empty = "Нет животных. Возможно ошибка во входных данных";
 }
