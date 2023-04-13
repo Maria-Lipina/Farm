@@ -38,6 +38,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\resources\packs_prog.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\resources\pets.csv">
           <value>
             <Attribute>
@@ -45,10 +52,10 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\src\main\resources\species.csv">
+        <entry key="\src\main\resources\pets_prog.csv">
           <value>
             <Attribute>
-              <option name="separator" value=";" />
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>

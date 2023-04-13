@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="загрузка животных в реестр из файла">
+    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="выполнение команд. Осталось навигацию по меню">
+      <change afterPath="$PROJECT_DIR$/src/main/java/farm/utils/MenuConst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/farm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Farm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/PackAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/PackAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/PetAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/PetAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/animals_prog.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/animals_prog.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/animals.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/packs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pets.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "false",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/IT/Geekbrains/Промежуточная аттестация 02.23/Linux and (Java) Toy drawing/Linux and Toy shop game",
     "project.structure.last.edited": "Modules",
@@ -136,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681310211186</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="выполнение команд. Осталось навигацию по меню">
+      <created>1681316358793</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681316358793</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,7 +167,8 @@
     <MESSAGE value="структура проекта и обработка входных файлов" />
     <MESSAGE value="классы животных пока пустые" />
     <MESSAGE value="загрузка животных в реестр из файла" />
-    <option name="LAST_COMMIT_MESSAGE" value="загрузка животных в реестр из файла" />
+    <MESSAGE value="выполнение команд. Осталось навигацию по меню" />
+    <option name="LAST_COMMIT_MESSAGE" value="выполнение команд. Осталось навигацию по меню" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
