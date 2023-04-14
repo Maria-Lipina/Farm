@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="дебаг и как итог необходимый минимум задания выполнен">
+    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="mysql part done, лишние файлы и папки удалены">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql_part/mysql_part.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_part/mysql_part.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagram part.png" beforeDir="false" afterPath="$PROJECT_DIR$/diagram part.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681402857973</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="mysql part done, лишние файлы и папки удалены">
+      <created>1681458218360</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681458218360</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +210,8 @@
     <MESSAGE value="Добавила обучение, методы поиска, исправила switch" />
     <MESSAGE value="добавила проверку ввода" />
     <MESSAGE value="дебаг и как итог необходимый минимум задания выполнен" />
-    <option name="LAST_COMMIT_MESSAGE" value="дебаг и как итог необходимый минимум задания выполнен" />
+    <MESSAGE value="mysql part done, лишние файлы и папки удалены" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysql part done, лишние файлы и папки удалены" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

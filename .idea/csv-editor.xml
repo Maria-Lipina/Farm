@@ -3,41 +3,6 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\mysql_part\animals.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\mysql_part\categories.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\mysql_part\date.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\mysql_part\packs.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\mysql_part\pets.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\src\main\resources\animals_prog.csv">
           <value>
             <Attribute>
