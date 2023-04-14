@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\mysql_part\date.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\mysql_part\packs.csv">
           <value>
             <Attribute>
@@ -31,35 +38,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\src\main\resources\animals.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\src\main\resources\animals_prog.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\src\main\resources\categories.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\src\main\resources\date.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\src\main\resources\packs.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />
@@ -70,13 +49,6 @@
           <value>
             <Attribute>
               <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\src\main\resources\pets.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>

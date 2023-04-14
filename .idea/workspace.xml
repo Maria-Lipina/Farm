@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="добавила проверку ввода">
+    <list default="true" id="eb1e212b-ae97-4a15-b732-881bbcce0082" name="Changes" comment="дебаг и как итог необходимый минимум задания выполнен">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/Farm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farm/utils/MenuConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farm/utils/MenuConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql_part/mysql_part.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_part/mysql_part.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "full.screen.before.presentation.mode": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/IT/Geekbrains/Промежуточная аттестация 02.23/Linux and (Java) Toy drawing/Linux and Toy shop game",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.4190207",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IT/Geekbrains/Промежуточная аттестация 02.23/Linux and (Java) Toy drawing/Linux and Toy shop game&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4190207&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -170,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681396002130</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="дебаг и как итог необходимый минимум задания выполнен">
+      <created>1681402857973</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681402857973</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +202,8 @@
     <MESSAGE value="Добавила меню с навигацией, убрала learn" />
     <MESSAGE value="Добавила обучение, методы поиска, исправила switch" />
     <MESSAGE value="добавила проверку ввода" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавила проверку ввода" />
+    <MESSAGE value="дебаг и как итог необходимый минимум задания выполнен" />
+    <option name="LAST_COMMIT_MESSAGE" value="дебаг и как итог необходимый минимум задания выполнен" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -208,7 +215,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/farm/utils/Controller.java</url>
-          <line>132</line>
+          <line>133</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
